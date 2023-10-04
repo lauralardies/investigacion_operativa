@@ -16,15 +16,23 @@ Asier es un estudiante emprendedor de tercer año en la UAX. Tiene la teoría de
 
 ### Modelo 1: 
 En este modelo tomamos como función objetivo Max(Z)=x1+2x2.
+
 Y restricciones: x2<=10-x1; x2<=x1+1; x2<=4. 
+
 En este modelo hemos tomado que la frase 'la diferencia entre las horas que dedica a divertirse y las que dedica a estudiar debe ser a lo sumo de 1 hora' se representa matemáticamente como x2-x1<=1.
+
 ### Modelo 2: 
 En este modelo tomamos como función objetivo Max(Z)=x1+2x2.
+
 Y restricciones: x2<=10-x1; x2<=x1-1; x2<=4. 
+
 En este modelo hemos tomado que la frase 'la diferencia entre las horas que dedica a divertirse y las que dedica a estudiar debe ser a lo sumo de 1 hora' se representa matemáticamente como x1-x2<=1.
+
 ### Modelo 3: 
 En este modelo tomamos como función objetivo Max(Z)=x1+2x2.
+
 Y restricciones: x2<=10-x1; x2<=x1+1; x2<=x1-1; x2<=4. 
+
 En este modelo hemos tomado que la frase 'la diferencia entre las horas que dedica a divertirse y las que dedica a estudiar debe ser a lo sumo de 1 hora' se representa matemáticamente como |x1-x2|<=1.
 
 ## Variantes
