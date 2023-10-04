@@ -1,6 +1,7 @@
 import sympy as sym
 from sympy import symbols
 from sympy.plotting import plot
+# Función objetivo: Max(Z)=x1+x2
 f1 = "10-x" #<=
 f2 = "1+x" #<=
 f3 = "4" #<=

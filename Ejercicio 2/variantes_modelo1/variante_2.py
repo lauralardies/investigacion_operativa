@@ -1,6 +1,7 @@
-import sympy as sym
+import sympy
 from sympy import symbols
 from sympy.plotting import plot
+# Función objetivo: Max(Z)=x1+2x2
 f1 = "1+x" #<=
 f2 = "4" #<=
 Z1 = "(16-x)/2"
