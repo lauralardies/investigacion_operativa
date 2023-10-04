@@ -36,3 +36,24 @@ Y restricciones: x2<=10-x1; x2<=x1+1; x2<=x1-1; x2<=4.
 En este modelo hemos tomado que la frase 'la diferencia entre las horas que dedica a divertirse y las que dedica a estudiar debe ser a lo sumo de 1 hora' se representa matemáticamente como |x1-x2|<=1.
 
 ## Variantes
+En las variantes hemos trabajado sobre el modelo 1, pues lo hemos considerado el más apropiado de los tres que hemos visto.
+
+### Variante 1:
+En este modelo tomamos como función objetivo Max(Z)=x1+x2. Se valora de igual manera la diversión y el estudio.
+
+Las restricciones son las mismas: x2<=10-x1; x2<=x1+1; x2<=4. 
+
+### Variante 2:
+En este modelo tomamos como función objetivo Max(Z)=x1+2x2. Sólo eliminamos una de las restricciones.
+
+Y restricciones: x2<=x1+1; x2<=4. 
+
+### Variante 3:
+En este modelo tomamos como función objetivo Max(Z)=y. Se trata de maximizar la diversión, que posteriormente limitaremos a 0 en las restricciones, ya que Asier se quiere convertir en un troll.
+
+Restricciones: x2<=10-x1; x2<=x1+1; x2<=4; x2=0. 
+
+### Variante 4:
+En este modelo tomamos como función objetivo Max(Z)=y. Maximizamos la diversión.
+
+Restricciones: x2<=10-x1; x2<=x1+1; x2<=4; x2=0. 
