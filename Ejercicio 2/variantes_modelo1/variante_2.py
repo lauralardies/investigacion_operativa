@@ -1,4 +1,4 @@
-import sympy
+import sympy as sym
 from sympy import symbols
 from sympy.plotting import plot
 # Función objetivo: Max(Z)=x1+2x2
